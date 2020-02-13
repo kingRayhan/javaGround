@@ -24,7 +24,6 @@ public class LinkedList {
         }
     }
 
-
     // addLast
     public void addLast(int item) {
         // create a node

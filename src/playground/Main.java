@@ -1,32 +1,38 @@
 /**
  * Big O notation
  * --------------------------
- * Bubble Sort
- * Insertion Sort
- * Selection Sort
- * Merge Sort
- * Heap Sort
- * Quick Sort
- * Redix Sort
+ * 1. Bubble Sort -
+ * 2. Insertion Sort -
+ * 3. Selection Sort -
+ * 4. Merge Sort -
+ * 5. Heap Sort
+ * 6. Quick Sort
+ * 7. Redix Sort
+ * 8. Bucket Sort
+ *
  * Stability in Sorting
  */
 package playground;
 
 import algo.sorting.*;
-import utils.*;
+
+
+import java.util.Arrays;
 
 public class Main {
 
+
     public static void main(String[] args) {
 
-        int[] numbers = {3, 2, 1 , 9};
-
+        int[] numbers = {5, 4, 1, 3};
+//        MergeSort.sort(numbers);
 //        SelectionSort.sort(numbers);
 //        BubbleSort.sort(numbers);
         InsertionSort.sort(numbers);
-        Utils.lines("After sort");
-        for (int n : numbers)
-            System.out.println(n);
+
+
+        System.out.println(Arrays.toString(numbers));
+
     }
 
 }

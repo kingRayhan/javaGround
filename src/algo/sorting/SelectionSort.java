@@ -34,12 +34,14 @@ public class SelectionSort {
 
 
     public static void sort(int[] inputArray) {
-        for (var i = 0; i < inputArray.length; i++) {
+        for (var i = 0; i < inputArray.length; i++) { // O(n)
+
             // 1. Select the lowest element from the remaining array
             var minIndex = findMinIndex(inputArray , i);
 
             // 2. Swap that element with selected element
             Utils.swap(inputArray , i , minIndex);
+
         }
     }
 }
