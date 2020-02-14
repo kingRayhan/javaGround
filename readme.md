@@ -4,6 +4,6 @@
 - Selection Sort
 - Merge Sort
 - Heap Sort
-- Quick Sort
-- Redix Sort
-- Bucket Sort
+ - Quick Sort
+ - Redix Sort
+ - Bucket Sort

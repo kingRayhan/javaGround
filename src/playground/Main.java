@@ -28,8 +28,10 @@ public class Main {
 //        MergeSort.sort(numbers);
 //        SelectionSort.sort(numbers);
 //        BubbleSort.sort(numbers);
-        InsertionSort.sort(numbers);
+//        InsertionSort.sort(numbers);
 
+        var quickSort = new QuickSort();
+        quickSort.sort(numbers);
 
         System.out.println(Arrays.toString(numbers));
 
