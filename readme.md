@@ -1,4 +1,4 @@
-## Algorithms
+### Algorithms
 - Bubble Sort
 - Insertion Sort
 - Selection Sort
@@ -7,3 +7,7 @@
  - Quick Sort
  - Redix Sort
  - Bucket Sort
+ 
+ ### DS
+ - LinkedList
+ - Array
