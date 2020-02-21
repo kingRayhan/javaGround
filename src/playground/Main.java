@@ -9,31 +9,30 @@
  * 6. Quick Sort
  * 7. Redix Sort
  * 8. Bucket Sort
- *
+ * <p>
  * Stability in Sorting
  */
 package playground;
 
-import algo.sorting.*;
-
 
 import java.util.Arrays;
+
+import ds.LinkedList;
 
 public class Main {
 
 
     public static void main(String[] args) {
+        var list = new LinkedList();
 
-        int[] numbers = {5, 4, 1, 3};
-//        MergeSort.sort(numbers);
-//        SelectionSort.sort(numbers);
-//        BubbleSort.sort(numbers);
-//        InsertionSort.sort(numbers);
+        list.addLast(1);
+        list.addLast(2);
+        list.addLast(3);
+        list.addLast(4);
+        list.addLast(5);
 
-        var quickSort = new QuickSort();
-        quickSort.sort(numbers);
+        System.out.println(Arrays.toString(list.toArray()));
 
-        System.out.println(Arrays.toString(numbers));
 
     }
 

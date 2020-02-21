@@ -6,9 +6,7 @@
 * Worst Case: O(n^2) -> Quadretic
 * */
 
-
 package algo.sorting;
-
 import utils.Utils;
 
 public class BubbleSort {
